@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=la, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label for="nome"></label>
+        <input type="text" id="nome" placeholder="digite o seu nome">
+        <br><br>
+        <label for="idade"></label>
+        <input type="number" id="idade" placeholder="digite a sua idade">
+        <br><br>
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="digite o seu e-mail">
+        <br><br>
+        <label for="nasc">Data de nascimento</label>
+        <br>
+        <input type="date" id="nasc" placeholder="dd/mm/aaaa">
+        <br><br>
+        <label for="senha">Digite uma senha para acessar os dados da pesquisa posteriormente</label>
+        <br>
+        <input type="password" id="senha" placeholder="Digite uma senha">
+
+
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>aspecto do produto</legend>
+        <label for="cor">Selecione a cor do produto apos 6 mese de uso:</label>
+        <br>
+        <input id="cor" type="color">
+        <br><br>
+        <label for="foto">Adicione uma foto do seu produto</label>
+        <br>
+        <input type="file" id="foto" placeholder="escolher arquivo">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> Opinião quanto a utilização</legend>
+        <label for="cheiro">Você gosta do cheiro do produto?</label>
+        <br>
+        <input type="radio" id="gm" name="cheiro">
+        <label for="gm">Gosto muito</label>
+        <br>
+        <input type="radio" id="gosto" name="cheiro">
+        <label for="gosto">Gosto</label>
+        <br>
+        <input type="radio" id="ns" name="cheiro">
+        <label for="ns">Não sei</label>
+        <br>
+        <input type="radio" id="ng" name="cheiro">
+        <label for="ng">Não gosto</label>
+        <br>
+        <input type="radio" id="odeio" name="cheiro">
+        <label for="odeio">Odeio</label>
+        <br>
+        <label for="caracteristicas">marque as caracteristicas dom produto que vc mais gosta</label>
+        <br>
+        <input type="checkbox" id="fixação" name="caracteristicas">
+        <label for="fixação">fixação</label>
+        <br>
+        <input type="checkbox" id="textura" name="caracteristicas">
+        <label for="textura">textura</label>
+        <br>
+        <input type="checkbox" id="cheiro" name="caracteristicas">
+        <label for="cheiro">cheiro</label>
+        <br>
+        <input type="checkbox" id="cor" name="caracteristicas">
+        <label for="cor">cor</label>
+        <br>
+        <input type="checkbox" id="embalagem" name="caracteristicas">
+        <label for="embalagem">embalagem</label>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Nivel de satisfação</legend>
+        <label for="satisfação">Coloque nessa escala o seu nivel de satisfação geral do produto</label>
+        <br>
+        <input type="range">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Opinião</legend>
+        <label for="opiniao">Digite abaixo sua opnião geral para esse produto</label>
+        <br>
+        <textarea rows="10" cols="50" name="opiniao" id="opiniao"></textarea>
+    </fieldset>
+    <br>
+    <input type="button" value="responder questionário">
+    
+</body>
+</html>
