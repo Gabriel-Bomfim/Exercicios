@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prova</title>
+</head>
+
+<body>
+	<h1>9° Serie A - Prova De Conhecimentos Gerais</h1>
+	<p>Responda todas as questões, utilize papel para realizar os calculos. Os rascunhos serçao recolhidos pela prof
+		apos a quarentena</p>
+
+	<fieldset>
+		<legend>Informações do aluno</legend>
+		<label for="nome"></label>
+		<input id="nome" type="text" placeholder="Digite seu nome aqui" required>
+		<br><br>
+		<label for="grupo"></label>
+		<input id="grupo" type="number" placeholder="N° de pessoas no grupo" required>
+		<br><br>
+		<label for="email"></label>
+		<input id="email" type="email" placeholder="Digite seu email aqui" required>
+		<br><br>
+		<label for="data"></label>
+		<input type="date" id="data" placeholder="dd/mm/aaaa" required>
+		<br><br>
+		<label for="senha"></label>
+		<input id="senha" type="password" placeholder="Digite sua senha aqui" required>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Matematica</legend>
+		<img src="matematica.jpg" width="300" alt="">
+		<br>
+		<label for="questao1">3 + 3 =</label>
+		<input id="questao2" type="number" required>
+		<br><br>
+		<label for="questao2">10 / 3 =</label>
+		<input id="questao2" type="number" required>
+		<br><br>
+		<label for="questao3">5 * 2 =</label>
+		<input id="questao3" type="number" required>
+		<br><br>
+		<label for="questao4">Esse exercício foi difícil?</label>
+		<input id="questao4" type="range">
+
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>português</legend>
+
+		<img src="portugues.jpg" width="300" alt="">
+		<br>
+		<label for="sujeito">Na frase: "eu sou bonito" o seujeito é</label>
+		<br>
+		<input type="radio" id="Bradpitt" name="sujeito">
+		<label for="Bradpitt">Brad pitt</label>
+		<br>
+		<input type="radio" id="joao" name="sujeito">
+		<label for="joao">João da padaria</label>
+		<br>
+		<input type="radio" id="voce" name="sujeito">
+		<label for="voce">Você mesmo</label>
+		<br>
+		<input type="radio" id="pais" name="sujeito">
+		<label for="pais">Meus pais</label>
+		<br>
+		<input type="radio" id="eu" name="sujeito">
+		<label for="eu">Eu</label>
+		<br><br>
+		<label for="">Complete a frase: "Filho de peixe, peixinho ____"</label>
+		<br>
+		<input type="checkbox" id="e" name="peixinho">
+		<label for="e">é</label>
+		<br>
+		<input type="checkbox" id="tem" name="peixinho">
+		<label for="tem">tem</label>
+		<br>
+		<input type="checkbox" id="verde" name="peixinho">
+		<label for="verde">Verde</label>
+		<br>
+		<input type="checkbox" id="bonito" name="peixinho">
+		<label for="bonito">Bonito</label>
+		<br>
+		<input type="checkbox" id="maria" name="peixinho">
+		<label for="maria">Maria</label>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Dê uma opinião sobre sua professora</legend>
+		<br>
+		<label for="professor">Seu professor explica bem a materia?</label>
+		<input id="professor" type="range">
+		<br><br>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Opinião</legend>
+		<label for="opiniao">Digite sua opinião sobre a disciplina</label>
+		<br>
+		<textarea rows="10" cols="50" name="opinião" id="opiniao"></textarea>
+	</fieldset>
+	<br><br>
+	<input type="submit" id="enviar" name="botao" value="enviar respostas">
+</body>
+
+</html>
